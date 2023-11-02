@@ -1,0 +1,51 @@
+{
+  "name": "electron-app",
+  "productName": "Electron App",
+  "keywords": [
+    "Electron App"
+  ],
+  "version": "1.1.1",
+  "private": true,
+  "author": "suraj",
+  "description": "Lorem Ipsum",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "rebuild": "electron-rebuild",
+    "watch": "nodemon --exec electron .",
+    "package": "electron-forge package",
+    "publish": "electron-forge publish",
+    "make": "electron-forge make"
+  },
+  "license": "MIT",
+  "build": {
+    "appId": "",
+    "asarUnpack": []
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-dmg": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "electron": "^24.3.1",
+    "electron-builder": "^23.6.0",
+    "electron-is-dev": "^2.0.0",
+    "electron-rebuild": "^3.2.9",
+    "nodemon": "^2.0.22"
+  },
+  "optionalDependencies": {
+    "dmg-license": "^1.0.9"
+  },
+  "dependencies": {
+    "@electron/rebuild": "^3.2.13",
+    "@electron/remote": "^2.0.9",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-window-state": "^5.0.3"
+  },
+  "postinstall": "electron-builder install-app-deps",
+  "nodeGypRebuild": true,
+  "config": {
+    "forge": "./forge.config.js"
+  }
+}

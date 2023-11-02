@@ -1,0 +1,123 @@
+/* styles.css */
+
+/* Add styles here to customize the appearance of your app */
+label.error {
+  display: block;
+  color: red;
+}
+
+.toastify-success,
+.toastify-error {
+  background: #fff !important;
+  font-weight: normal !important;
+}
+
+.toastify-success {
+  color: #07bc0c !important;
+}
+
+.toastify-error {
+  color: #e74c3c !important;
+}
+
+.logout-btn {
+  float: right;
+  width: 25px;
+}
+
+body .signup-form {
+  margin: 3rem auto;
+  padding: 3rem;
+  width: calc(100% - 3rem);
+  max-width: 32rem;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .15);
+  background: #fff
+}
+
+div#cstm-user-details.bg_gray {
+  background: #e9ecef;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+body.login-page {
+  background: #001c55;
+}
+
+body .btn-primary,
+body .btn.disabled,
+body .btn:disabled,
+body fieldset:disabled .btn,
+body .btn:focus-visible,
+body .btn:not(.btn-secondary):hover {
+  background-color: #001c55;
+  border-color: #001c55;
+}
+
+button.toast-close {
+  position: absolute;
+  right: 0px;
+  top: 3px;
+  font-size: 10px;
+  opacity: 1;
+}
+
+.toastify {
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #39e500;
+  color: #53565a !important;
+  width: 312px;
+  max-height: 74px;
+}
+
+.toastify.toastify-error {
+  border-color: #e74c3c;
+}
+
+.toastify.toastify-success {
+  border-color: #39e500;
+}
+
+img.logo-img {
+  display: table;
+  margin: 0px auto;
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+svg.eye-icon-p {
+  position: absolute;
+  right: 10px;
+  top: 44px;
+  float: right;
+}
+
+#lock_id~.select2 {
+  display: block;
+}
+
+a.lock_write img {
+  width: 26px;
+}
+
+div#card-assign-errors p {
+  color: red;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.cstm_div_version {
+  padding-top: 50px;
+}
+
+.wht_color {
+  color: #fff !important;
+
+}
+
+.wht_color .cstm_div_version {
+  padding-top: 0px;
+}
